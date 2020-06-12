@@ -1,6 +1,8 @@
 Building ASD-B raspi 
 
-Image raspi with Noobs (delete un needed images from OS folder) 
+Image raspi with Noobs 
+https://www.raspberrypi.org/downloads/noobs/
+Download zip file, expand, copy to SD card.  Delete unused images from /os/ directory
 Add silentinstall to recovery.cmdline file
 add ssh file
 edit wpa supplicant file with needed features /etc/wpa_supplicant/wpa_supplicant.conf
