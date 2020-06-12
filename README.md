@@ -37,9 +37,15 @@ psk="password"
 
 let raspi boot up, get IP from router
 
-SSH into console and "sudo apt-get update && sudo apt-get upgrade" 
-Change password with "passwd" 
-Reboot
+SSH into console with the default username pi and password `raspberry` and pull any updates to the base OS
+```sudo apt-get update && sudo apt-get upgrade```
+
+Change default password
+
+```passwd```
+
+Reboot raspi
+```sudo reboot```
 
 Follow instructions here https://www.flightradar24.com/build-your-own
 
