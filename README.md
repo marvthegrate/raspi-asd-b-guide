@@ -22,7 +22,7 @@ https://www.raspberrypi.org/downloads/noobs/
 Download zip file, expand, copy to SD card.  Delete unused images from /os/ directory
 Add silentinstall to recovery.cmdline file
 add blank file titled ssh to root directory
-edit https://github.com/marvthegrate/raspi-asd-b-guidewpa_supplicant.conf
+edit  wpa_supplicant.conf with your appropriate SSID and password
 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
