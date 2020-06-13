@@ -25,7 +25,7 @@ Add silentinstall to recovery.cmdline file
 
 add blank file titled ssh to root directory
 
-edit  wpa_supplicant.conf with your appropriate SSID and password
+create the wpa_supplicant.conf file in the root directory of the sd card with your appropriate SSID and password
 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
