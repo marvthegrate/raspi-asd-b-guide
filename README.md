@@ -24,7 +24,7 @@ Add silentinstall to recovery.cmdline file
 add blank file titled ssh to root directory
 edit https://github.com/marvthegrate/raspi-asd-b-guidewpa_supplicant.conf
 
-`ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+```ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=US
 
@@ -33,7 +33,7 @@ scan_ssid=1
 ssid="ssid"
 psk="password"
 }
-`
+```
 
 let raspi boot up, get IP from router
 
@@ -42,14 +42,23 @@ SSH into console with the default username pi and password `raspberry` and pull 
 
 Change default password and set hostname
 
-`sudo raspi-config`
+```sudo raspi-config```
 
 Reboot raspi
 ```sudo reboot```
 
 Follow instructions here https://www.flightradar24.com/build-your-own
 
-Install tar1090 https://github.com/wiedehopf/tar1090
+At time of writing this bash script will install fr24
+```sudo bash -c "$(wget -O - https://repo-feed.flightradar24.com/install_fr24_rpi.sh)"```
+
+Install adsbexchange feeder  
+At time of writing this bash script will install adsbx feeder
+```sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/adsbxchange/adsb-exchange/master/install.sh)"```
+Install readsb script
+```https://github.com/wiedehopf/adsb-scripts/wiki/readsb-script```
+
+
 
 install piaware https://flightaware.com/adsb/piaware/build
 
