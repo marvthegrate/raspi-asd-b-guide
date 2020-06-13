@@ -40,9 +40,9 @@ let raspi boot up, get IP from router
 SSH into console with the default username pi and password `raspberry` and pull any updates to the base OS
 ```sudo apt-get update && sudo apt-get upgrade```
 
-Change default password
+Change default password and set hostname
 
-```passwd```
+`sudo raspi-config`
 
 Reboot raspi
 ```sudo reboot```
