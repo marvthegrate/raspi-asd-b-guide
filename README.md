@@ -24,7 +24,7 @@ Add silentinstall to recovery.cmdline file
 add blank file titled ssh to root directory
 edit https://github.com/marvthegrate/raspi-asd-b-guidewpa_supplicant.conf
 
-```ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+`ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=US
 
@@ -33,7 +33,7 @@ scan_ssid=1
 ssid="ssid"
 psk="password"
 }
-```
+`
 
 let raspi boot up, get IP from router
 
