@@ -63,6 +63,10 @@ At time of writing this bash script will install adsbx feeder
 Install readsb script
 ```https://github.com/wiedehopf/adsb-scripts/wiki/readsb-script```
 
+At time of writing this script will install readsb
+```sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/wiedehopf/adsb-scripts/master/readsb-install.sh)"
+```
+
 
 To Do
 install piaware https://flightaware.com/adsb/piaware/build
