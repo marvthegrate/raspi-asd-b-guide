@@ -6,7 +6,7 @@ BOM
 
 1 Software defined radio and Antenna
 
-1 MicroSD card at least 8 gb in size
+1 MicroSD card at least 16 gb in size
 
 1 USB power supply for raspi
 
@@ -39,7 +39,7 @@ psk="password"
 }
 ```
 
-let raspi boot up, get IP from router
+let raspi boot up, get IP from router This will take 15-20 minutes to do.
 
 SSH into console with the default username pi and password `raspberry` and pull any updates to the base OS
 ```sudo apt-get update && sudo apt-get upgrade```
@@ -59,6 +59,7 @@ At time of writing this bash script will install fr24
 Install adsbexchange feeder  
 At time of writing this bash script will install adsbx feeder
 ```sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/adsbxchange/adsb-exchange/master/install.sh)"```
+
 Install readsb script
 ```https://github.com/wiedehopf/adsb-scripts/wiki/readsb-script```
 
